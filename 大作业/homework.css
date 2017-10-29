@@ -1,0 +1,420 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+
+#Header{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	background-image: url(images/homepage-hero.image.large_2x.jpg);
+	background-position:center 30%;
+}	
+.pic100{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+#navigation-bar{
+	background-color: black;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	height:50px;
+	width:100%;
+}
+.ahead{
+	color: white;
+}
+#navigation-bar-content{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+}
+#apple{
+	width: 45px;
+	height: 40px;
+}
+li{
+	margin-top: 10px;
+	font-size: 20px;
+	margin-right: 60px;
+	float: left;
+}
+#support{
+	height: 40px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 0.5px solid white;
+}
+.wh1{
+	font-size: 20px;
+	color: white;
+	float: left;
+}
+.wh2{
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+	float: right;
+	font-size: 10px；
+	display: block;
+}
+#welcome1{
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 50px;
+	width: 1000px;
+}
+#welcome2{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	width: 1000px;
+	height: 50px;
+}
+.wh3{
+	line-height: 50px;
+	color: white;
+	font-size: 35px;
+	font-weight: 450;
+}
+.wh4{
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+} 
+#search{
+	width: 654px;
+	height: 52px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+#searchpic{
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#Help-and-understand{
+	width: 100%;
+}
+.h1{
+	margin-top: 30px;
+	text-align: center;
+	width: 820px;
+	height: 59px;
+	font-size: 34px;
+	font-weight: 550;
+	margin-left: auto;
+	margin-right: auto;
+}
+#product-pic{
+	margin:0 20% 0 20%;
+	height:160px;
+	text-align: center;
+}
+.product{
+	float:left;
+	width: 100px;
+	height: 80px;
+	margin-right: 50px;
+}
+.product-pic{
+	width: 80px;
+	height: 80px;
+/*	margin-left: 10px;*/
+}
+.h2{
+	text-align: center;
+	font-size: 15px;
+}
+#product-list{
+	width: 100%;
+	height: 70px;
+	border-top: 0.5px solid gray;
+	border-bottom: 0.5px solid lightgray;
+}
+#product-list-contaner{
+	width: 100%;
+	height: 25px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+a{
+	font-weight: 300;
+	color:#0070c9;
+	text-align: center;
+}
+.h3{
+	font-size: 30px;
+	font-weight: 100;
+}
+#software{
+	width: 100%;
+	height: 361px;
+	border-bottom: 0.5px solid lightgray;
+}
+#software-content{
+	margin-left: auto;
+	margin-right: auto;
+	width:817px;
+	margin-top: 58px;
+}
+.lsoftware{
+	float: left;
+	width: 408.5px;
+	height: 265px;
+}
+.rsoftware{
+	float: right;
+	width: 408.5px;
+	height: 265px;
+}
+.h4{
+	width: 100%;
+	height: 30px;
+	line-height: 10px;
+	font-size: 30px;
+	font-weight: 400; 
+}
+.h5{
+	margin-top: 20px;
+	width: 100%;
+	height: 110px;
+	line-height: 20px;
+	font-size: 20px;
+	font-weight: 300;
+}
+.h6{
+	margin-top: 20px;
+	width: 100%;
+	height: 30px;
+	line-height: 40px;
+	font-size: 22px;
+}
+#rsoftware-pic{
+	width: 408px;
+	height: 265px;
+}
+#equipment{
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	height: 338px;
+	border-bottom:0.5px solid lightgray;
+}
+#guarantee1{
+	margin-right: 10px;
+	width: 480px;
+	height: 338px;
+	float: left;
+}
+#guarantee2{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 480px;
+	height: 338px;
+	float: left;
+}
+#guarantee1pic{
+	width: 240px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pic{
+	width: 240px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.h7{
+	font-size: 30px;
+	font-weight: 550;
+	margin-bottom: 30px;
+}
+.h8{
+	width: 100%;
+	margin-top: 20px;
+}
+#fake{
+	margin-top: 48px;
+	height: 188px;
+	width: 887px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.h9{
+	width: 100%;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 550;
+}
+.h10{
+	margin-top: 20px;
+	font-size: 17px;
+	text-align: center;
+	width: 100%;
+	font-weight: 250;
+}
+#apple-class{
+	margin-top: 30px;
+	background-image: url(images/today-at-apple-workshop-banner.image.large_2x.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 516px;
+	background-position:center 30%;
+}
+#class{
+	padding-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	height: 200px;
+}
+#class1{
+	color: white;
+	font-size: 35px;
+	font-weight: 550;
+	width: 400px;
+	height:94px;
+}
+#class2{
+	color: white;
+	margin-top: 20px;
+	width: 400px;
+	height: 52px;
+}
+#class3{
+	margin-top: 20px;
+	width: 400px;
+	height: 26px;
+}
+#help{
+	width:980px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 0.5px solid lightgray;
+}
+#question{
+	margin-top: 5px;
+	margin-right: 10px;
+	width: 480px;
+	height: 338px;
+	float: left;
+}
+#communication{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 470px;
+	height: 338px;
+	float: left;
+}
+#information{
+
+}
+.information{
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#apple-id{
+	height: 190px;
+	border-bottom: 0.5px solid lightgray;
+}
+#apple-id-pic{
+	float: right;
+	width: 150px;
+	height: 150px;
+}
+#apple-china{
+	height: 100px;
+	text-align: center;
+	border-bottom: 0.5px solid lightgray;
+}
+.h11{
+	height: 50px;
+	font-size: 26px;
+	font-weight: 520;
+}
+#iphone-close{
+	height: 150px;
+	text-align: center;
+	border-bottom: 0.5px solid lightgray;
+}
+#plan{
+	text-align: center;
+	height: 350px;
+}
+.ablack{
+	color: black;
+}
+#footer{
+	background-color: #f2f2f2;
+	width:100%;
+	height:295px;
+}
+#footcontent{
+	width: 980px;
+	height: 295px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footerhead{
+	width: 100%;
+	height:20px;
+	margin:20px 0 20px 0;
+}
+#form{
+	color: #333;
+	font-size: 4px;
+}
+#table1{
+	color: #333;
+	font-weight: 600;
+	text-align: left;
+}
+#table2{
+	font-size: 4px;
+	text-align: left;
+}
+#buy{
+	margin-top: 10px;
+	width: 100%;
+	height: 30px;
+	font-size: 12px;
+	border-bottom:0.5px solid lightgray; 
+}
+#bottom{
+	font-size: 12px;
+	height: 10px;
+}
+#country{
+	height:; 
+	float: right;
+}
+#china{
+	height: 20px;
+	width: 20px;
+}
